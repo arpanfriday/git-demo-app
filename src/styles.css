@@ -17,9 +17,16 @@ body {
   background: var(--gray1);
   line-height: 1.5;
 }
-code {
+code.light-code {
   font-family: "Messina Sans Mono", ui-monospace, "Courier New", monospace;
+  font-size: 14px;
   color: var(--white);
+}
+
+code.dark-code {
+  font-family: "Messina Sans Mono", ui-monospace, "Courier New", monospace;
+  font-size: 14px;
+  color: var(--gray7);
 }
 .hero {
   background: var(--gray7);
