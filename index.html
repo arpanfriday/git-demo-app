@@ -11,14 +11,14 @@
   <header class="hero">
     <p class="kicker">CFOT KNOWLEDGE EXCHANGE</p>
     <h1>Git &amp; version control<span class="dot">.</span></h1>
-    <p class="lede">This page is served straight from the <code>main</code> branch — every merge to <code>main</code> is a new production deploy.</p>
+    <p class="lede">This page is served straight from the <code class="light-code">main</code> branch — every merge to <code class="light-code">main</code> is a new production deploy.</p>
     <p class="build">Build: <span id="build-info">loading…</span></p>
   </header>
 
   <main>
     <section class="card">
       <h2>Try the daily loop</h2>
-      <p>Click the button to simulate a commit. In a real project, this is <code>git add</code> → <code>git commit</code> → <code>git push</code> → PR → merge.</p>
+      <p>Click the button to simulate a commit. In a real project, this is <code class="dark-code">git add</code> → <code class="dark-code">git commit</code> → <code class="dark-code">git push</code> → PR → merge.</p>
       <button id="commit-btn">git commit</button>
       <p class="count">Commits this session: <strong id="commit-count">0</strong></p>
       <ul id="log" class="log"></ul>
@@ -27,7 +27,7 @@
     <section class="card">
       <h2>How this page got here</h2>
       <ol class="pipeline">
-        <li>Push / merge to <code>main</code></li>
+        <li>Push / merge to <code class="dark-code">main</code></li>
         <li>GitHub Actions builds the site</li>
         <li>Artifact is published to GitHub Pages</li>
         <li>You are looking at production</li>
